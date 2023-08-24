@@ -1,0 +1,129 @@
+/* Login styles */
+h2{
+  color: green;
+}
+
+.footer{
+  background-color: green;
+  margin-top: 16rem;
+}
+.container{
+  margin-bottom: 3rem;
+}
+
+
+
+
+
+.login .card {
+  color: green;
+  border: 2px solid green;
+  border-radius: 20px;
+  margin: 50px 400px;
+}
+
+.login .bg-title {
+  color: green;
+  background-color: white;
+  border-radius: 17px 17px 0 0;
+  border-color: green;
+}
+
+.login h2 {
+  font-weight: 700;
+  margin: 10px 20px;
+}
+
+.login form {
+  margin: 10px 20px;
+}
+
+.login .form-label {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.login .form-control {
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: green;
+}
+
+.login .form-control:focus,
+.form-control.active {
+  border-color: green;
+  box-shadow: 0 0 0 0.2rem rgba(85, 206, 58, 0.5);
+}
+
+.login .form-control::placeholder {
+  color: #d5d5d5;
+  font-style: italic;
+}
+
+.login .btn-login {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  display: inline-block;
+  padding: 5px 45px;
+  border-radius: 10px;
+  border: 2px solid green;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease-in-out;
+  color: white;
+  background-color: green;
+}
+
+.login .btn-login:hover {
+  -webkit-transform: scale(1.1);
+  color: green;
+  border-color: green;
+  background: white;
+}
+
+.login p {
+  font-size: 16px;
+}
+
+.login .btn-daftar {
+  font-weight: 700;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease-in-out;
+  color: green;
+}
+
+.login .btn-daftar:hover {
+  -webkit-transform: scale(1.1);
+}
+
+@media (max-width: 1286px) {
+  .login .card {
+    margin: 30px 300px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .login .card {
+    margin: 30px 200px;
+  }
+}
+
+@media (max-width: 992px) {
+  .login .card {
+    margin: 30px 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .login .card {
+    margin: 20px 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .login .card {
+    margin: 20px 10px;
+  }
+}

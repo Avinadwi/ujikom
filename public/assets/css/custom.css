@@ -1,0 +1,50 @@
+/*
+Custom Css
+*/
+/*
+Custom Css
+*/
+
+.content-wrapper {
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.btn {
+    margin-bottom: 10px;
+
+    text-align: right;
+
+}
+
+/* .keranjang{
+        background-color: green;
+    } */
+
+.h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* Atur tinggi container sesuai kebutuhan */
+}
+
+.formedit {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.dashboard {
+    margin-bottom: 10px;
+    margin-top: 60px;
+    padding-left: 20px;
+    /* Jarak kiri */
+    padding-right: 20px;
+    /* Jarak kanan */
+}
+.responsive-image {
+    max-width: 15%;
+    height: auto;
+    border-radius: 10px;
+  }
+  

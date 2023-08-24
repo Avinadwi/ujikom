@@ -1,0 +1,56 @@
+/*
+Custom Css
+*/
+
+.content-wrapper {
+    margin-bottom: 50px;
+    margin-top: 20px; 
+}
+.btn {
+    margin-bottom: 10px;
+ 
+    text-align: right;
+    
+}
+/* .keranjang{
+    background-color: green;
+} */
+
+.h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Atur tinggi container  */
+  }
+
+  .formedit {
+    margin-bottom: 10px;
+    margin-top: 10px; 
+}
+  
+.dashboard {
+    margin-bottom: 10px;
+    margin-top: 04px; 
+    padding-left: 20px; /* Jarak kiri */
+padding-right: 20px; /* Jarak kanan */
+}
+
+.hh{
+    margin-bottom: 20px;
+    margin-top: 30px; 
+    padding-left: 5px; /* Jarak kiri */
+    padding-right: 5px; /* Jarak kanan */
+}
+.h{
+   
+    margin-top: 15px; 
+    margin-bottom: 20px;
+  
+}
+.dash{
+    margin-bottom: 20px;
+    margin-top: 5px; 
+    padding-left: 5px; /* Jarak kiri */
+    padding-right: 5px; /* Jarak kanan */
+}
+  

@@ -1,0 +1,163 @@
+body{
+    background-color: rgb(240, 240, 244);
+
+}
+.pembungkus-kartu{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px   ;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 40px
+    ;
+}
+
+.kartu{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;;
+    transition: .3s;
+}
+
+.kartu:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+img{
+    width: 200px;
+    margin: 20px 40px ;
+}
+
+.nama h4{
+    color: rgb(70, 70, 70);
+}
+
+.deskripsi p{
+    color: rgb(116, 116, 116);
+    text-align: center;
+    margin:0px 5px 20px 0px;
+}
+
+.harga h4{
+    font-weight: bold;
+    color:rgb(235, 143, 6);
+}
+
+.keranjang{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: red;;
+}
+
+.keranjang a:hover{
+    background-color: rgb(9, 112, 64);
+    
+}
+
+.keranjang a{
+    background-color: rgb(25, 135, 84);
+    padding: 8px 50px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: .5px;
+    width: 80%;
+}
+
+.card-create{
+    display: grid;
+    grid-template-areas: auto auto;
+}
+
+
+.gambarr img{
+    padding: 30px 15px;
+    border-radius: 5px;
+    background-color: rgb(233, 236, 239);
+}
+
+/* form login */
+
+.pembungkus-kartu-login{
+    width: 35%;
+    margin: auto;
+    padding-top: 20px;
+    margin-top: 15vh;
+}
+
+.kartu-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.kartu-login .judul-login h3{
+    color: rgb(138, 137, 137);
+    margin: 20px 0px;
+}
+
+.kartu-login .isi-login{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 50px 0px 20px 0px;
+}
+
+.isi-login input{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
+
+.isi-login button{
+    padding: 10px 15px;
+    background-color: #96D059;
+    border:none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.1em;
+    transition: .2s;
+}
+
+.isi-login button:hover{
+    background-color: #6da730;
+
+}
+
+.bantuan {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.bantuan p{
+    color: #646363;
+}
+
+.bantuan a{
+    text-decoration: none;
+
+}
+
+.tombol-tambah button{
+    padding: 6px 10px;
+    background-color: #96D059;
+    border:none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.1em;
+    transition: .2s;
+}
+.tombol-tambah button:hover{
+    background-color: #6da730;
+
+}
